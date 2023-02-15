@@ -1,0 +1,36 @@
+.gallery-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 25px;
+  padding-bottom: 25px;
+}
+.img-container {
+  display: flex;
+  justify-content: flex-start;
+}
+.img {
+  height: 450px;
+  width: 550px;
+  border-radius: 12px;
+}
+.heading {
+  font-family: roboto;
+  font-size: 24px;
+  font-weight: 500;
+  color: #1e293b;
+}
+.description {
+  font-family: roboto;
+  font-size: 14px;
+  font-weight: 400;
+  color: #64748b;
+}
+.thumbnail-container {
+  list-style-type: none;
+  display: flex;
+}
